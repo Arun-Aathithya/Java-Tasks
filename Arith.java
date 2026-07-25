@@ -1,0 +1,64 @@
+import java.util.Scanner;
+public class Arith{
+    public static void main(String[] args){
+        int a=40;
+        int b=39;
+        System.out.println("ADDITION:" + (a+b));
+        System.out.println("SUBTRACTION:" + (a-b));
+        System.out.println("MULTIPLICATION:" + (a*b));
+        System.out.println("DIVISION:" + (a/b));
+        System.out.println("MODULUS:" + (a%b));
+        int c=10;
+        int d=20;
+        System.out.println("'RELATIONAL OPERATION'");
+        System.out.println("Greater:" + (c>d));
+        System.out.println("Lesser:" + (c<d));
+        System.out.println("Equal:" + (c==d));
+        System.out.println("Not Equal:" + (c!=d));
+        System.out.println("Greater or Equal:" + (c>=d));
+        System.out.println("Lesser or Equal:" + (c<=d));
+        int e=100;
+        System.out.println("ASSIGNMENT OPERATION");
+        System.out.println("e="+ e);
+        System.out.println("e+=5:"+(e+5));
+        System.out.println("e-=5:"+(e-=5));
+        System.out.println("e*=5:"+(e*=5));
+        System.out.println("e/=5:"+(e/=5));
+        System.out.println("e%=5:"+(e%=5));
+        boolean f=true;
+        boolean g=false;
+        System.out.println("LOGICAL OPERATION");
+        System.out.println("f="+ f);
+        System.out.println("g="+ g);
+        System.out.println("f&&e:"+(f&&g));
+        System.out.println("f||e:"+(f||g));
+        System.out.println("!f: "+(!f));
+        int h=100;
+        System.out.println("UNARY OPERATION");
+        System.out.println("h="+ h);
+        System.out.println("++h:"+(++h));
+        System.out.println("--h:"+(--h));
+        System.out.println("h++:"+(h++));
+        System.out.println("h--:"+(h--));
+        int i=1008;
+        int j=108;
+        System.out.println("BITWISE OPERATION");
+        System.out.println("i="+ i);
+        System.out.println("j="+ j);
+        System.out.println("~i:"+(~i));
+        System.out.println("i&j:"+(i&j));
+        System.out.println("i|j:"+(i|j));
+        System.out.println("i^j:"+(i^j));
+        System.out.println("i<<j:"+(i<<j));
+        System.out.println("i>>j:"+(i>>j));
+        System.out.println("i>>>j:"+(i>>>j));
+        Scanner sc=new Scanner(System.in);
+        System.out.println("Enter your Age:");
+        System.out.println("TERNARY OPERATION");
+        Scanner sc1=new Scanner(System.in);
+        int k=sc1.nextInt();
+        System.out.println("k="+ k);    
+        System.out.println("AGE>18:"+(k>=18?"TRUE":"FALSE"));
+
+    }
+}
